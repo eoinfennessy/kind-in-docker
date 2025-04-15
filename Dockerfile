@@ -5,3 +5,5 @@ RUN chmod +x ./kind
 RUN mv ./kind /usr/local/bin/kind
 
 RUN curl -fsSL https://get.docker.com | sh
+
+ENTRYPOINT [ "kind" ]
